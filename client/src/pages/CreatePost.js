@@ -20,7 +20,7 @@ function CreatePost() {
     const onSubmit = (data) => {
         console.log(data);
         axios.post("http://localhost:3001/posts", data).then((response) => {
-            console.log("New Post Inserted");;
+            console.log("New Post Inserted");
         });
     };
 
